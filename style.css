@@ -16,12 +16,12 @@ h1 {
 }
 
 button {
-    border: solid black 1px;
+    border: solid rgb(0, 0, 0) 1px;
     display: inline;
     padding: 10px 5px;
     margin: 0px 20px;
     background-color: tan;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 section {
