@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(235, 179, 111);
+}
+
+header {
+    text-align: center;
+    color: white;
+    
+}
+
+h1 {
+    border: black 1px solid;
+    background-color: rgb(66, 0, 0);
+    text-align:center;
+
+}
+
+button {
+    border: solid black 1px;
+    display: inline;
+    padding: 10px 5px;
+    margin: 0px 20px;
+    background-color: tan;
+    color: black;
+}
+
+section {
+    border: solid black 1px;
+
+}
+
+#hero {
+    width: 90%
+}
+
+.section_image {
+text-align: center;
+}
+
+p {
+    background-color: #d39b00;
+}
+
+footer {
+    text-align: center;
+
+}
