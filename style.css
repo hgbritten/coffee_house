@@ -1,26 +1,27 @@
 body {
-    background-color: rgb(235, 179, 111);
+    background-color: #FFAA4F;
 }
 
 header {
     text-align: center;
-    color: white;
+    color: whitesmoke;
     
 }
 
 h1 {
     border: black 1px solid;
-    background-color: rgb(66, 0, 0);
+    background-color: #945410;
     text-align:center;
 
 }
+
 
 button {
     border: solid rgb(0, 0, 0) 1px;
     display: inline;
     padding: 10px 5px;
     margin: 0px 20px;
-    background-color: tan;
+    background-color: #00A6E0;
     color: rgb(0, 0, 0);
 }
 
@@ -30,18 +31,16 @@ section {
 }
 
 #hero {
-    width: 90%
+    width: 100%;
 }
 
 .section_image {
-text-align: center;
+    text-align: center;
 }
 
 p {
-    background-color: #d39b00;
+    background-color: #E08B2F;
 }
-
 footer {
     text-align: center;
-
 }
