@@ -10,7 +10,7 @@ header {
 
 h1 {
     border: black 1px solid;
-    background-color: #945410;
+    background-color: #881b00;
     text-align:center;
 
 }
@@ -21,7 +21,7 @@ button {
     display: inline;
     padding: 10px 5px;
     margin: 0px 20px;
-    background-color: #00A6E0;
+    background-color: rgb(255, 208, 146);
     color: rgb(0, 0, 0);
 }
 
@@ -39,7 +39,8 @@ section {
 }
 
 p {
-    background-color: #E08B2F;
+    background-color: #b37a02d0;
+    color: white;
 }
 footer {
     text-align: center;
