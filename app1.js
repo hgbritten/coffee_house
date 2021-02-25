@@ -1,3 +1,3 @@
-if (window.confirm("Do you really want to leave?")) {
-    window.open("exit.html", "Thanks for Visiting!");
+if (userName == 'Hunter'){
+    document.write('<h3>' + 'Welcome ' + userName + '<h3>');
 }
