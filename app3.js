@@ -26,11 +26,11 @@ function numberGuessingGame(){
     let correctAnswer = Math.floor(Math.random() * 100) +1;
     console.log(correctAnswer);
     // maybe later we can get a random number
-    let guesses = 8;
+    let guesses = 4;
 
     // get a number from the user
     for(let i = 0; i < guesses; i++){
-        let userAnswer = prompt('Please Enter a number 1-100');
+        let userAnswer = prompt('How many cups of coffee is it acceptable to drink in a day? 1-100');
         while(userAnswer < 1 || userAnswer > 100){
             userAnswer = prompt('Outside of Range. Please enter a number between 1-100')
         }
@@ -40,9 +40,9 @@ function numberGuessingGame(){
             alert('DING DING DING! YOU GOT IT RIGHT!');
             break;
         } else if(userAnswer > correctAnswer){
-            alert('Your anser is too high! Try aggin!')
+            alert('Way too many! Try again!')
         } else if(userAnswer < correctAnswer){
-            alert('Your answer is too low! Try again!')
+            alert('How can you survive on only ' + userAnswer + ' cups a day?! Try again!')
         }
     }
     
@@ -53,4 +53,15 @@ function numberGuessingGame(){
     // stretch goal
     // let user know if number is high or low
 
+}
+
+function starRating(){
+    let userAnswer = prompt('How many stars would you give Coffee House?')
+    if(userAnswer > 5){
+        userAnswer = 5
+    }
+    for(let i = 0; i < userAnswer; i++){
+        document.write('<img src="https://cms-assets.tutsplus.com/uploads/users/34/posts/30118/preview_image/star-rating.jpg">')
+    }
+    
 }
